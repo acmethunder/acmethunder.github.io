@@ -22,6 +22,7 @@ body { margin: 0px; }
 h1, h3 {
     color: #ffffff;
     margin: 0px;
+    text-align: center;
 }
 
 h1 { margin-left: 50px; margin-right: 50px; }
