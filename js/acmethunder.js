@@ -1,11 +1,11 @@
 QUOTES = [
     {
         text: 'First things first. But not necessarily in that order.',
-        credit: 'Doctor Who'
+        credit: 'The Doctor'
     },
     {
         text: 'These go to eleven.',
-        credit: 'Spinal Tap'
+        credit: 'Nigel Tufnel'
     },
     {
         text: 'They call it a Royale with cheese.',
