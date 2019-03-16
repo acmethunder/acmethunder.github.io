@@ -38,6 +38,54 @@ QUOTES = [
     {
         text: 'You see, there are still faint glimmers of civilization left in this barbaric slaughterhouse that was once known as humanity. Indeed that\'s what we provide in our own modest, humble, insignificant...oh, fuck it.',
         credit: 'M. Gustave'
+    },
+    {
+        text: 'Martini. Gin, not vodka. Obviously. Stirred for 10 seconds while glancing at an unopened bottle of vermouth.',
+        credit: 'Eggsy'
+    },
+    {
+        text: 'Leave the gun. Take the cannoli.',
+        credit: 'Peter Celemenza'
+    },
+    {
+        text: 'Gentlemen, you can\'t fight in here. This is a war room!',
+        credit: 'Dr. Strangelove'
+    },
+    {
+        text: 'These go to eleven.',
+        credit: 'Nigel Tufnel'
+    },
+    {
+        text: 'This is not \'Nam. This is bowling. There are rules.',
+        credit: 'Walter'
+    },
+    {
+        text: 'I know!',
+        credit: 'Han Solo'
+    },
+    {
+        text: 'If I\'m not back in five minutes, just wait longer.',
+        credit: 'Ace Ventura'
+    },
+    {
+        text: 'I thought I had mono for an entire year. It turned out I was just really bored.',
+        credit: 'Wayne Campbell'
+    },
+    {
+        text: 'Never do anything out of hunger. Not even eating.',
+        credit: 'Frank Semyon'
+    },
+    {
+        text: 'Life is just like that sometimes, you\'re hoping for a unicorn ... and you get a goat!',
+        credit: 'Gru'
+    },
+    {
+        text: 'Some people can read War and Peace and come away thinking it\'s a simple adventure story. Others can read the ingredients on a chewing gum wrapper and unlock the secrets of the universe.',
+        credit: 'Lex Luthor'
+    },
+    {
+        text: 'Everything before the word \'but\' is horseshit.',
+        credit: 'Jon Snow'
     }
 ];
 
