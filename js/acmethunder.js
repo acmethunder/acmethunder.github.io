@@ -86,6 +86,10 @@ QUOTES = [
     {
         text: 'Everything before the word \'but\' is horseshit.',
         credit: 'Jon Snow'
+    },
+    {
+        text: 'Mornings are for coffee and contemplation',
+        credit: 'Jim Hopper'
     }
 ];
 
