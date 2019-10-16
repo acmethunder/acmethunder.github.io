@@ -97,4 +97,5 @@ $(document).ready(function() {
     let index = Math.floor(Math.random() * QUOTES.length);
     $('#main-content').append(`<h1>${QUOTES[index].text}</h1>`);
     $('#main-content').append(`<h3>- ${QUOTES[index].credit}</h3>`);
+    ga('send', 'event', 'quote', 'display', QUOTES[index].credit, index);
 });
