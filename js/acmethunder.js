@@ -100,5 +100,7 @@ $(document).ready(function() {
     ga('miked.send', {hitType: 'event', eventCategory: 'quote', eventAction: 'display', eventLabel: QUOTES[index].credit, eventValue: index});
     // ga('miked.send', 'dimension1', index);
     // var metricValue = '123';
-    ga('miked.send', {'quote': index});
+    // ga('miked.send', {'quote': index});
+    ga('md:quote', {'index': index});
+    ga('send', 'pageview');
 });
