@@ -98,5 +98,7 @@ $(document).ready(function() {
     $('#main-content').append(`<h1>${QUOTES[index].text}</h1>`);
     $('#main-content').append(`<h3>- ${QUOTES[index].credit}</h3>`);
     ga('miked.send', {hitType: 'event', eventCategory: 'quote', eventAction: 'display', eventLabel: QUOTES[index].credit, eventValue: index});
-    ga('miked.send', 'dimension1', index);
+    // ga('miked.send', 'dimension1', index);
+    // var metricValue = '123';
+    ga('set', 'quote', index);
 });
