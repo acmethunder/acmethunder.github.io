@@ -88,7 +88,7 @@ QUOTES = [
         credit: "Jim Hopper"
     },
     {
-        text: "When life gives you lemons, just say, “Fuck the lemons” and bail",
+        text: "When life gives you lemons, just say, 'Fuck the lemons' and bail",
         credit: "Chuck"
     },
     {
@@ -101,7 +101,7 @@ $(document).ready(function() {
     let index = Math.floor(Math.random() * QUOTES.length);
     $('#main-content').append(`<h1>${QUOTES[index].text}</h1>`);
     $('#main-content').append(`<h3>- ${QUOTES[index].credit}</h3>`);
-    ga('miked.send', {hitType: 'event', eventCategory: 'quote', eventAction: 'display', eventLabel: QUOTES[index].credit, eventValue: index});
+    ga('send', {hitType: 'event', eventCategory: 'quote', eventAction: 'display', eventLabel: QUOTES[index].credit, eventValue: index});
     // ga('miked.send', 'dimension1', index);
     // var metricValue = '123';
     // ga('miked.send', {'quote': index});
