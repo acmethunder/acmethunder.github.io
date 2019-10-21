@@ -76,7 +76,7 @@ QUOTES = [
         credit: "Gru"
     },
     {
-        text: "Some people can read War and Peace and come away thinking it's a simple adventure story. Others can read the ingredients on a chewing gum wrapper and unlock the secrets of the universe."",
+        text: "Some people can read War and Peace and come away thinking it's a simple adventure story. Others can read the ingredients on a chewing gum wrapper and unlock the secrets of the universe.",
         credit: "Lex Luthor"
     },
     {
