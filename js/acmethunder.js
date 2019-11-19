@@ -100,5 +100,5 @@ QUOTES = [
 $(document).ready(function() {
     let index = Math.floor(Math.random() * QUOTES.length);
     $('#main-content').append(`<h1>${QUOTES[index].text}</h1>`);
-    $('#main-content').append(`<a href="http://egp.qa.spiria.com/neutre/inscription/1" target="_blank"><h3>- ${QUOTES[index].credit}</h3></a>`);
+    $('#main-content').append(`<a href="" target="_blank"><h3>- ${QUOTES[index].credit}</h3></a>`);
 });
