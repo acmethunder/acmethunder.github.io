@@ -94,11 +94,56 @@ QUOTES = [
     {
         text: "Sherlock Holmes observed that once you have eliminated the impossible then whatever remains, however improbable, must be the answer. I, however, do not like to eliminate the impossible.",
         credit: "Dirk Gently"
+    },
+    {
+        text: "Shaken, not stirred.",
+        credit: "Bond, James Bond"
+    },
+    {
+        text: "The greatest trick the devil ever pulled was convincing the world he didn't exist.",
+        credit: "Keyser Söze"
     }
 ];
 
+var working = [];
+
 $(document).ready(function() {
-    let index = Math.floor(Math.random() * QUOTES.length);
-    $('#main-content').append(`<h1>${QUOTES[index].text}</h1>`);
-    $('#main-content').append(`<a href="" target="_blank"><h3>- ${QUOTES[index].credit}</h3></a>`);
+    // let index = Math.floor(Math.random() * QUOTES.length);
+    // working = reorder()
+    // $('#main-content').append(`<h1>${QUOTES[index].text}</h1>`);
+    // $('#main-content').append(`<a href="" target="_blank"><h3>- ${QUOTES[index].credit}</h3></a>`);
+    $('#reload-text').click(displayText);
+    displayText();
 });
+
+function displayText() {
+    if (working.length == 0) {
+        working = reorder();
+    }
+    let item = working.pop();
+    $('#quote-text').text(item.text);
+    $('#credit-text').text(`- ${item.credit}`);
+}
+
+function reorder() {
+    return shuffle(QUOTES.slice(0))
+}
+
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}

@@ -21,7 +21,7 @@ a { text-decoration: none; color: #ffffff }
     justify-content: center;
 }
 
-h1, h3 {
+h1, h3 , h5{
     color: #ffffff;
     margin: 0px;
     text-align: center;
@@ -30,3 +30,5 @@ h1, h3 {
 h1 { margin-left: 50px; margin-right: 50px; }
 
 h3 { margin-top: 15px; }
+
+h5 { margin-top: 20px; }
