@@ -102,6 +102,10 @@ QUOTES = [
     {
         text: "The greatest trick the devil ever pulled was convincing the world he didn't exist.",
         credit: "Keyser Söze"
+    },
+    {
+      text: "You will refer to me as 'Idiot,' not 'You Captain!',
+      credit: "Lonestar"
     }
 ];
 
