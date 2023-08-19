@@ -104,7 +104,7 @@ QUOTES = [
         credit: "Keyser Söze"
     },
     {
-      text: "You will refer to me as 'Idiot,' not 'You Captain!',
+      text: "You will refer to me as 'Idiot,' not 'You Captain!'",
       credit: "Lonestar"
     }
 ];
