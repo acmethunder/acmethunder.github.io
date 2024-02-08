@@ -106,6 +106,10 @@ QUOTES = [
     {
       text: "You will refer to me as 'Idiot,' not 'You Captain!'",
       credit: "Lonestar"
+    },
+    {
+        text: "Who do you think I am?",
+        credit: "Darlene"
     }
 ];
 
